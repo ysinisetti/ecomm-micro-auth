@@ -1,13 +1,15 @@
-package com.ecommerce.auth;
+package com.company.auth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DocumentApplicationTests {
+class AuthServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
 	}
 
 }
+
+
