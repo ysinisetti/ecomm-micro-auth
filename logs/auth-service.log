@@ -86,3 +86,57 @@
 2026-07-18 17:50:54.033 [http-nio-9998-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2026-07-18 17:50:54.034 [http-nio-9998-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
 2026-07-18 17:50:54.510 [http-nio-9998-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 205 ms
+2026-07-18 18:18:08.347 [main] INFO  c.c.auth.AuthServiceApplicationTests - Starting AuthServiceApplicationTests using Java 21.0.11 with PID 19472 (started by ysini in C:\Users\ysini\IdeaProjects\Ecomm-micro\ecomm-micro-auth)
+2026-07-18 18:18:08.349 [main] DEBUG c.c.auth.AuthServiceApplicationTests - Running with Spring Boot v3.5.0, Spring v6.2.7
+2026-07-18 18:18:08.349 [main] INFO  c.c.auth.AuthServiceApplicationTests - The following 1 profile is active: "dev"
+2026-07-18 18:18:09.583 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-18 18:18:09.650 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 0 JPA repository interfaces.
+2026-07-18 18:18:10.335 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-18 18:18:10.983 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3afca2c
+2026-07-18 18:18:10.987 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-18 18:18:11.049 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-18 18:18:11.153 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.15.Final
+2026-07-18 18:18:11.228 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-07-18 18:18:11.842 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-18 18:18:11.993 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-18 18:18:13.539 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-18 18:18:13.543 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-18 18:18:13.883 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-18 18:18:14.921 [main] INFO  c.c.auth.AuthServiceApplicationTests - Started AuthServiceApplicationTests in 7.302 seconds (process running for 9.096)
+2026-07-18 18:18:15.578 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-18 18:18:15.583 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-18 18:18:15.626 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-18 18:20:05.467 [main] INFO  c.c.auth.AuthServiceApplicationTests - Starting AuthServiceApplicationTests using Java 21.0.11 with PID 26580 (started by ysini in C:\Users\ysini\IdeaProjects\Ecomm-micro\ecomm-micro-auth)
+2026-07-18 18:20:05.467 [main] DEBUG c.c.auth.AuthServiceApplicationTests - Running with Spring Boot v3.5.0, Spring v6.2.7
+2026-07-18 18:20:05.467 [main] INFO  c.c.auth.AuthServiceApplicationTests - The following 1 profile is active: "dev"
+2026-07-18 18:20:06.827 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-18 18:20:06.889 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 0 JPA repository interfaces.
+2026-07-18 18:20:07.510 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-18 18:20:08.148 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@660b1a9d
+2026-07-18 18:20:08.148 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-18 18:20:08.222 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-18 18:20:08.311 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.15.Final
+2026-07-18 18:20:08.398 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-07-18 18:20:08.924 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-18 18:20:09.076 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-18 18:20:10.189 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-18 18:20:10.189 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-18 18:20:10.499 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-18 18:20:11.453 [main] INFO  c.c.auth.AuthServiceApplicationTests - Started AuthServiceApplicationTests in 6.683 seconds (process running for 7.952)
+2026-07-18 18:20:12.141 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-18 18:20:12.145 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-18 18:20:12.158 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
